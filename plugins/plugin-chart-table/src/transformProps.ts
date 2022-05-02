@@ -200,6 +200,7 @@ const transformProps = (chartProps: TableChartProps): TableChartTransformedProps
     server_pagination: serverPagination = false,
     server_page_length: serverPageLength = 10,
     order_desc: sortDesc = false,
+    detoken_select: detokenSelect = false,
     query_mode: queryMode,
     show_totals: showTotals,
   } = formData;
@@ -236,6 +237,7 @@ const transformProps = (chartProps: TableChartProps): TableChartTransformedProps
     colorPositiveNegative,
     showCellBars,
     sortDesc,
+    detokenSelect,
     includeSearch,
     rowCount,
     pageSize: serverPagination
