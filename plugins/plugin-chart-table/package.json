@@ -1,7 +1,7 @@
 {
-  "name": "@superset-ui/plugin-chart-table",
+  "name": "@nets-aric/plugin-chart-table",
   "version": "0.17.30",
-  "description": "Superset Chart - Table",
+  "description": "Nets Superset Chart - Table",
   "main": "lib/index.js",
   "module": "esm/index.js",
   "sideEffects": false,
@@ -11,20 +11,22 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apache-superset/superset-ui.git"
+    "url": "git+https://github.com/nets-aric/superset-ui.git"
   },
   "keywords": [
-    "superset"
+    "superset",
+    "nets"
   ],
-  "author": "Superset",
+  "author": "Nets-ARIC",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/apache-superset/superset-ui/issues"
+    "url": "https://github.com/nets-aric/superset-ui/issues"
   },
   "homepage": "https://github.com/apache-superset/superset-ui#readme",
-  "publishConfig": {
-    "access": "public"
-  },
+   "publishConfig": {
+     "access": "public",
+     "@nets-aric:registry": "https://npm.pkg.github.com"
+   },
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@superset-ui/chart-controls": "0.17.30",
