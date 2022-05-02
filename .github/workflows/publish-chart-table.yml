@@ -12,9 +12,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 12
-      - run: npm ci
-        working-directory: ./plugins/plugin-chart-table
-      - run: npm test
+      - run: npm i
         working-directory: ./plugins/plugin-chart-table
 
   publish-gpr:
